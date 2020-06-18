@@ -39,30 +39,65 @@ a, a:visited{
 .tbar button{
     background: -webkit-linear-gradient(top,#4387fd,#4683ea);
     border:1px solid #4285f4;
+    border-radius: 5px;
     color: white;
     font-weight: bold;
     padding: 10px 20px;
 }
 
 .logo{
-    
     text-align: center;
-    padding-top: 109px;
+    position: relative;
+    display: block;
+    margin: 47px;
 }
 
 .searchbar{
     text-align: center;
-    border: 1px solid black;
-    border-radius: 2px;
-    padding: 10px;
-    margin: 0px 13px;
+}
+
+.searchbar input[type="text"] {
+    padding: 15px;
+    font-size: 15px;
+    border: solid 0.5px #5f6368;    
+    border-radius: 25px;
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+}
+
+.searchbar input[type="text"]:hover{
+    border: solid 0.5px #5f6368;    
+    box-shadow: 0.5px #5f6368;
+}
+
+.searchbar input[type="text"]:focus {
+    outline:  none;
 }
 
 .searchbutton {
+    font-size: 15px;
     padding: 20px;
     text-align: center;
     line-height: 30px;
 }
+
+.searchbutton button {
+    background: #f2f2f2;
+    color: #5f6368;
+    font-size: 15px;
+    text-align: center;
+    line-height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.searchbutton button:hover{
+    border: solid 0.5px #5f6368;    
+    box-shadow: 0.5px #5f6368;
+}
+
 
 .pays, .fbar {
     width: 100%;
