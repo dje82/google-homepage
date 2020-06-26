@@ -86,24 +86,7 @@ input:focus{
     padding: 5px;
 }
 
-.searchbutton{
-    text-align: center;
-    padding: 20px;    
-}
-.searchbutton button {
-    background-color: rgb(242, 242, 242);
-    border: none;
-    border-radius: 5px;
-    padding: 8px 12px;
-    font-size: 14px;
-    color: #5f6368;
-}
 
-#language {
-    text-align: center;
-    font-size: 13px;
-    margin-bottom: 10px;
-}
 
 /* footer */
 

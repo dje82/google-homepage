@@ -9,3 +9,4 @@ Assignment:
 
 26/06/2020 :
     Rework after certification get on freeCodeCamp.org
+    Start Difficult Version (optional): Build the Google.com search results page
