@@ -21,7 +21,7 @@ li {
 
 /* text colors */
 
-.pays, .fbar-left a, .fbar-right a  {
+.pays, .fbar-left a, .fbar-right a, * a  {
     color:#5f6368;
 }
 
@@ -97,6 +97,11 @@ input:focus{
     padding: 8px 12px;
     font-size: 14px;
     color: #5f6368;
+}
+
+.searchbutton button:hover{
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 }
 
 #language {

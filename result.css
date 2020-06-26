@@ -1,123 +1,80 @@
-/* reset */
-html, body, nav, ul, li, a,input, div, img, p, footer {
-    margin: 0;
-	padding: 0;
-    border: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:hover{
-    text-decoration: underline;
-}
-
-
-li {
-    list-style: none;
-}
-
-/* text colors */
-
-.pays, .fbar-left a, .fbar-right a  {
-    color:#5f6368;
-}
-
-#navlist a, .searchbutton p {
-    color: #222222;
-}
-
-/* Top Navbar  */
-
-#navlist{
-    text-align: right;
-    margin-top: 10px;
-}
-
-#navlist li{
-    display: inline-flex;
-}
-
-#navlist a{
-    margin-right: 10px;    
-}
-
-
-#btn-connexion {
-    background: #4285f4;
-    border: none;
-    border-radius: 2px;
-    color: white;
-    padding: 8px 12px;
-    font-weight: bold;
-}
-
-/* logo  */
-
-#logo {
-    text-align: center;
-    margin-top: 150px;
-    margin-bottom: 30px;    
-}
-
-/* search bar and button  */
-
-#searchbar {
-    text-align: center;
-    border: 1px solid rgb(223, 225, 229);
-    border-radius: 25px;
-    margin: 30px 28% 30px 28%;
-    padding: 5px;
-}
-
-#searchbar:hover {
-    box-shadow: 0 1px 6px 0 rgb(32, 33, 36);
-}
-
-input:focus{
-    outline:none;
-}
-
-#searchbar input {
-    width:90%;
-    font-size: 16px;    
-    padding: 5px;
-}
-
-
-
-/* footer */
-
-
-footer{
+header {
     position: fixed;
-    bottom: 0;
+    top: 0;
     width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    box-shadow: 0 1px 6px 0 rgb(32, 33, 36);
+    background: white;
 }
 
-#pays, #fbar{
-    background-color: #f2f2f2;
-    color: #5f6368;
-    border-top: 1px solid #e4e4e4;
-    line-height: 40px;
-    padding-left: 30px;
+.row1, .row2{
+    display: flex;
+    overflow: auto;
 }
 
-#fbar a{
-    color: #5f6368;
-    padding-right: 30px;
+.row2 {
+    margin-left: 150px;
 }
 
-#fbar{
-    overflow: hidden;
+#searchbar{
+    margin: 0;
+    padding: 0;
 }
 
-#fbar-left{
+
+#navbar-results{
+    width: 100%;
+    align-items: center;
+}
+
+
+#navlist-left{
     float: left;
+    margin: 20px 20px;
+    text-align: center;
 }
 
-#fbar-right{
+#navlist-right{
     float: right;    
-} 
+    margin: 20px 20px;
+}
+
+.row2 {
+    text-align: center;   
+}
+
+#media-list{
+    display: inline-flex;  
+}
+
+#media-list a{
+    margin-right: 20px;
+    text-align: center;
+}
+
+main {
+    margin : 125px 350px 50px 150px;
+}
+
+main p{
+    font-size: 14px;
+}
+
+main h3, main a, .pages a{
+    color: #1a0dab;
+}
+
+.pages{
+    text-align: center;
+}
+
+#pages-list  a{
+    margin-left: 10px;
+}
+
+
+/* cancel fixed footer */
+footer{
+    position: unset;
+}
